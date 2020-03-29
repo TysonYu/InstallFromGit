@@ -4,7 +4,7 @@ from setuptools import setup
 with open("README.md", "r") as f:
     DESCRIPTION = f.read()
 
-setup(name="test",
+setup(name="InstallFromGit",
       version="1.0.0",
       author="YU",
       description="CORD-19 Analysis",
@@ -17,13 +17,13 @@ setup(name="test",
           "Source Code": "https://github.com/neuml/cord19q",
       },
       license="MIT License: http://opensource.org/licenses/MIT",
-      packages=["cord19q"],
+      packages=["InstallFromGit"],
       package_dir={"": "src/python/InstallFromGit"},
       keywords="python search embedding machine-learning",
       python_requires=">=3.5",
       entry_points={
           "console_scripts": [
-              "cord19q = cord19q.shell:main",
+              "InstallFromGit = InstallFromGit.shell:main",
           ],
       },
       install_requires=[
