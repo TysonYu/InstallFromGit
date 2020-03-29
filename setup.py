@@ -18,7 +18,7 @@ setup(name="InstallFromGit",
       },
       license="MIT License: http://opensource.org/licenses/MIT",
       packages=["InstallFromGit"],
-      package_dir={"": "src/python/InstallFromGit"},
+      package_dir={"": "src/python"},
       keywords="python search embedding machine-learning",
       python_requires=">=3.5",
       entry_points={
