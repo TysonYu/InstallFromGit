@@ -18,7 +18,7 @@ setup(name="test",
       },
       license="MIT License: http://opensource.org/licenses/MIT",
       packages=["cord19q"],
-      package_dir={"": "src/python/"},
+      package_dir={"": "src/python/InstallFromGit"},
       keywords="python search embedding machine-learning",
       python_requires=">=3.5",
       entry_points={
